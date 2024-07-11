@@ -4,7 +4,9 @@ export function Navbar() {
     return(
     <nav className="flex justify-between items-center p-3">
     <div>
-        <img src="logo.webp" className="w-16 rounded-full" alt="" />
+        <a href="https://github.com/between27/amena-webpage">
+        <img src="github.svg" className="w-16 rounded" alt="" />
+        </a>
     </div>
     <div>
         <ul className="flex gap-x-4 justify-between">
